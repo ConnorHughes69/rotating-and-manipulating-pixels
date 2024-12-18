@@ -113,7 +113,7 @@ public class Main extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            String imagePath = "C:\\Users\\ConnorsAlien\\IdeaProjects\\testForImage\\src\\balba.PNG"; // Your specified image path
+            String imagePath = "images/balba.png"; // Your specified image path
             new Main(imagePath);
         });
     }
